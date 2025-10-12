@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tiramisu Recipe | Applying CSS Styling | Mikhail Castaneda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern&display=swap" rel="stylesheet">
+<style type="text/css">
+body { 
+    padding: 0;
+    margin: 0 auto;
+    background-image: url("backgroundimage.jpg");
+    background-color:grey;
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+}
+wrapper {
+    width: 1366px;
+    display: block;
+    margin: 0px auto;
+    background-color: mintcream;
+}
+main{
+    padding:20px;
+}
+h1 {
+    display: inline-block;
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 40px;
+    color: white;
+}
+section.list {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 45%;
+    margin: 40px 50px;
+	border: double 2px;
+    border-color:#bad4c9;
+	padding: 10px 40px 20px 30px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    vertical-align: top;
+}
+.logo {
+    width:150px;
+    vertical-align: middle;
+}
+#banner{
+    border-radius: 200px 0px 0px 200px;
+    border-right: solid 20px;
+    border-color: #6EA5E0;
+    width: 45%;
+    margin: 0px 40px;
+    float:right;
+}
+.bannerbox{
+    width: 83%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom:5px;
+    padding:50px;
+    border-bottom:dotted 5px;
+    border-color: #edd7af;
+}
+#ingredients{
+    width: 30%;
+    margin-left: 50px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 20px 0px 0px #6EA5E0;
+}
+header{
+    background-color: #6EA5E0;
+    border-bottom:dotted 5px;
+    border-color: azure;
+}
+footer{
+    background-color: #6EA5E0;
+    padding: 10px 50px;
+    border-top: dotted 5px;
+    border-color: white;
+}
+</style>
+</head>
+
+<body>
+<wrapper>
+<header>
+     <img class="logo" src="logo.png" alt="Simply Recipe's logo" />
+     <h1 class="title">Simply Recipes</h1>
+ </header>
+<main>
+<section class="bannerbox">
+    <img src="tiramisu-recipe.jpg" id="banner" alt="Tiramisu recipe" />
+    <br><br><br>
+        <h2>Tiramisu</h2>
+        <p>A simple, straightforward recipe for tiramisu. This classic, no-bake Italian dessert requires just 5 ingredients and a few hours in the fridge. Experiment with different flavors to make this recipe your own, or try it as is for the perfect morning treat, post-dinner dessert, or afternoon pick-me-up.</p>
+    </section>
+<section class="list" id="ingredients">
+    <h3>Ingredients</h3>
+    <ul>
+        <li> 1 cup mascarpone, room temperature</li>
+        <li> ~24 ladyfingers</li>
+        <li> 1 cup espresso, room temperature</li>
+        <li> 4 eggs at room temperature, separated</li>
+        <li> 6 tablespoons white sugar</li>
+    </ul>
+</section>
+<section class="list">
+    <h3>Steps</h3>
+    <ol>
+        <li>Whisk egg whites with 3 tablespoons of white sugar to form a soft meringue; do not overmix. Beat until soft peaks form, and set aside.</li>
+        <li>Add remaining 3 tablespoons of sugar to egg yolks and combine with mascarpone. Whisk until smooth; the resulting combination should be pale and thick.</li>
+        <li>Carefully fold meringue into egg yolk mixture, adding one third at a time until entirely combined.</li>
+        <li>Dip ladyfingers briefly into espresso to cover both sides. Arrange dipped ladyfingers into a single, flat layer at the bottom of dish.</li>
+        <li>Cover layer of dipped ladyfingers with half of the egg-mascarpone cream. Top with another layer of dipped ladyfingers, and then cover second layer of ladyfingers with the remaining cream.</li>
+        <li>Chill tiramisu in the fridge for 6-8 hours. Then: enjoy!</li>
+    </ol>
+</section>
+</main>
+
+<footer> <p>&copy; 2025, Mikhail Castaneda.</p>
+<p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+</body>
+</html>
