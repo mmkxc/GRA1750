@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Restaurant Mobile Site | CSS Project 5 | Mikhail Castaneda</title>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Oregano:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0;
+        background-color: #728982;
+        background-blend-mode: darken;
+        background-size: 1500px;
+        background-position: 0px;
+        color: white;
+        line-height: 1.2em;
+        font-family: "Lexend", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+    wrapper {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+    header{
+        width: 100%;
+        border: solid;
+        border-width: 0px 0px 3px 0px;
+        border-color:#0f4d5b;
+        box-shadow: rgba(0, 0, 0, 0.274) 0px 3px 10px;
+        z-index: 10;
+        position:sticky;
+        top: 0px;
+    }
+    .leaf-banner{    
+        background-image: url("header-leaves.png");
+        background-size:100%;
+        background-blend-mode:hue;
+        background-color: rgba(79, 109, 116);
+        padding:12px;
+        margin: 0 auto;
+        }
+    .site-headers{
+        margin: 0 auto;
+        width: 600px;
+        padding: 8px 0px 8px 0px;
+        line-height: 15px;
+    }
+    #main-header{
+        padding:0;
+    }
+    #header-links{
+        font-size:13px;
+        width: 250px;
+        float: right;
+        margin-top: -35px;
+        padding: 0;
+    }
+    #header-links a{
+        margin-left:2px;
+        margin-right:2px;
+        transition: color 0.15s, text-decoration 0.25s;
+    }
+    #header-links a:hover{
+        color:#19424B;
+        text-decoration: underline;
+    }
+    .landing img{
+        float:right;
+        width:200px;
+    }
+    .landing-text{
+        width:360px;
+        padding-top: 80px;
+        margin-bottom:30px;
+    }
+    h1{
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        font-size:3.1em;
+        text-decoration: underline wavy #19424B;
+    }
+    h2{
+        font-family: "Oregano", sans-serif;
+        font-style: italic;
+        font-size: 1.5em;
+    }
+    h3{
+        font-family: "Oregano", sans-serif;
+        letter-spacing:2px;
+        font-size: 1.7em;
+        margin-bottom:-5px;
+    }
+    h4{
+        font-size: 1.3em;
+        margin-bottom: 10px;
+    }
+    main {
+        margin: 0 auto 180px;
+        width: 600px;
+        transition: width .5s;
+    }
+    .special{
+        margin-top:10px;
+        width: 100%;
+        height: 200px;
+        background-image: url("SALAD-2.jpg");
+        background-size:cover;
+        background-position: center;
+    }
+    .special-text{
+        padding: 94px 0px 12px 12px;
+        background-image: linear-gradient(transparent, rgb(0, 0, 0));
+    }   
+    nav{
+        margin: 30px auto;
+        text-align: center;
+    }
+    button {
+        width: 100%;
+        background-color: #4f6d7480;
+        padding: 15px 0px 15px 0px;
+        font-family: "Oregano", sans-serif;
+        font-style:italic;
+        font-size: 20px;
+        color:rgb(135, 245, 255);
+        border:none;
+        margin-bottom: 8px;
+        transition: color 0.35s;
+        background-position: center;
+        background-blend-mode: multiply;
+    }
+    button:hover{
+        cursor:pointer;
+        color:#ffffff;
+        font-size:25px;
+    }
+    .main-nav:hover{
+        background-image: url("salad.png");
+        background-size: cover;
+        background-color: #677559;
+        font-size: 25px;
+        font-weight:400;
+        padding: 12px 0px 12px 0px;
+    }
+
+    address{
+        display: block;
+        margin-top: 15px;
+        font-style: italic;
+        font-size:1.2em;
+    }
+    #phone {
+        font-family: "Lexend", sans-serif;
+        font-weight:400;
+        font-style: normal;
+        margin-top: 15px;
+    }
+    .socials {
+        width: 50px;
+        padding: 0;
+        margin: 0px 15px 3px 10px;
+        text-align:center;
+        background-color: #31211b00;
+        mask-image:none;
+        transition: opacity 0.25s;
+    }
+    .socials img{
+        width:50px;
+    }
+
+    .socials:hover{
+        opacity:60%;
+    }
+    
+    footer{
+        padding-top:10px;
+        background-color: #19424B;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+@media (min-width:1000px){
+    main { 
+         width: 1000px;
+         font-size: 1.3em;
+    }
+    nav {
+        width: 100%;
+    }
+    .main-nav {
+        display:inline-block;
+        width: 350px;
+        margin: 0px 15px 0px 15px;
+        }
+    div{
+        display: inline-block;
+    }
+    .landing-text{
+        width: 700px;
+    }
+    }
+</style>
+<body>
+<wrapper>
+<header class="leaf-banner"> <section class="site-headers" id="main-header"><h1>El Saladia</h1>
+    <h2>Fresh Salads, Made to Order</h2><section id="header-links"> <a>HOME</a> | <a>MENU</a> | <a>STORE LOCATOR</a> </section></section>
+</header>
+<main><section class="landing">
+    <img src="fork-knife-splash.png">
+    <div class="landing-text"><h4>Always fresh flavors, <br />
+        from our gardens to your plate.</h2> 
+<p>El Saladia is committed to being a restaurant where freshness isn't just served, but celebrated. From crisp, garden-picked greens to vibrant vegetables and toppings, our seasonal specialties promise 
+    fresh, new plates alongside flavorful favorites waiting for you year-round.</p></div></section>
+    <h3 class="leaf-banner">This week's special</h3>
+<section class="special"><section class="special-text"><h4>Spring Salad</h4>
+Ripe cherry tomatoes, olives, snow peas, chick peas, and local seasonal spring 
+veggies on a bed of mesclun and baby spinach. <em>$9.50</em></section>
+</section>
+<nav>
+<button class="main-nav">Complete Menu</button>
+<button class="main-nav">Map & Directions</button>
+<div><address> &#128205; Boylston St, Boston, MA 02116</address>
+Open 7 days, 11am-8pm </div>
+<button class="main-nav" id="phone">(617) 535-5000</button></p>
+<p><button class="socials"><img src="icon-facebook.png"></button><button class="socials"><img src="icon-email.png"></button><button class="socials"><img src="icon-phone.png"></button><button class="socials"><img src="icon-twitter.png"></button>
+</nav></p>
+</main>
+</wrapper>
+<footer> 
+      <p class="site-headers">© Mikhail Castaneda, 2025. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+    </footer>
+</body>
+</html>
